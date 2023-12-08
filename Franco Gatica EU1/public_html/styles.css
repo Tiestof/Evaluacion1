@@ -7,7 +7,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .profile-section img {
@@ -24,10 +24,13 @@ body {
     color: #1BB000 ;
 }
 
-.skills-interests-container {
+.habilidades-intereses {
     display: flex; /* encontre esta propiedad para poder dejar en columnas las Habilidades y los intereses */
     justify-content: space-between;
     margin-top: 20px;
+    border: 2px solid #FFD700; /* Color dorado para el destacar la zona de Habilidades y intereses */
+    padding: 10px; /* Añadido para espacio interno */
+    border-radius: 10px; /* Añadido para esquinas redondeadas */
     
 }
 
@@ -50,8 +53,9 @@ body {
 footer a {
     color: white;
     text-decoration: none;
+    
 }
 
 footer a:hover {
-    color: #3498db;
+    color: #F81B14;
 }
