@@ -8,6 +8,8 @@ body {
     margin: 0 auto;
     text-align: center;
     padding: 10px;
+    border: 2px solid #FFD700; /* Color dorado para el destacar la zona  */
+    border-radius: 10px; /* Añadido para esquinas redondeadas */
 }
 
 .profile-section img {
