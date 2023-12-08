@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.profile-section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-section img {
+    width: 40%;
+    border-radius: 40%;
+    margin-bottom: 20px;
+}
+
+.profile-section h2 {
+    color: #333;
+}
+
+.profile-section h3 {
+    color: #1BB000 ;
+}
+
+.skills-interests-container {
+    display: flex; /* encontre esta propiedad para poder dejar en columnas las Habilidades y los intereses */
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.habilidades,
+.intereses {
+    width: 48%; /* se ajusta en 48% para dejar un espacio del 2% entre las columnas */
+}
+
+.habilidades,ul,
+.intereses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades ul,
+.intereses ul {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #3498db;
+}
